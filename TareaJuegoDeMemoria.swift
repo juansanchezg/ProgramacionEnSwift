@@ -14,11 +14,10 @@ for id : Int in 0...100{
     if id % 5 == 0{
         print("\t\(id)\t|\tBingo")
     }
-    if id % 2 == 1{
-        print("\t\(id)\t|\tImpar")
-    }
     if id % 2 == 0{
         print("\t\(id)\t|\tPar")
+    }else{
+        print("\t\(id)\t|\tImpar")
     }
     if id >= 30 && id <= 40{
         print("\t\(id)\t|\tViva Swift")
